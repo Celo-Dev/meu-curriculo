@@ -1,0 +1,217 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;   
+  }
+body{
+  width: 100%;
+  color: #4F4F4F;
+  text-align: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .container{
+   width: 50%;
+   overflow-y: scroll;
+   height: 90vh;
+   padding: 15px 2%;
+   box-shadow: 0 0 5px  #4F4F4F;
+}
+.container::-webkit-scrollbar{
+   width: 14px;
+   border: 1px solid #069;
+}
+.container::-webkit-scrollbar-thumb{
+   background-color: #069;
+   border-radius: 6px;
+}
+
+.hr_dados_pessoais{
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 5px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+  }
+.hr_dados_pessoais::after {
+	content: "MARCELO PEREIRA";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 35px;
+   font-weight: bold;
+	padding: 0 0.3em;
+   color:#069;
+   background-color: #fff;
+  }
+
+  .hr_objetivo{
+   margin-top: 25px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+  }
+.hr_objetivo::after{
+ content: 'Objetivo';
+ display: inline;
+ position: relative;
+ top: -0.7em;
+ font-size: 1.4em;
+ font-weight: bold;
+ padding: 0 0.3em;
+ color:#069;
+ background-color: #fff;
+  }
+
+  .hr_experiencia{
+   margin-top: 25px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+   }
+.hr_experiencia::after{
+   content: 'Experiências Profissionais';
+   display: inline;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   font-weight: bold;
+   padding: 0 0.3em;
+   color:#069;
+   background-color: #fff;
+  }
+
+  .hr_formacao{
+   margin-top: 45px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+   }
+  .hr_formacao::after{
+   content: 'Formação';
+   display: inline;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   font-weight: bold;
+   padding: 0 0.3em;
+   color:#069;
+   background-color: #fff;
+  }
+
+  .hr_cursos{
+   margin-top: 45px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+   }
+  .hr_cursos::after{
+   content: 'Cursos Complementares';
+   display: inline;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   font-weight: bold;
+   padding: 0 0.3em;
+   color:#069;
+   background-color: #fff;
+  }
+
+  .hr_conhecimentos{
+   margin-top: 45px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+  }
+.hr_conhecimentos::after{
+  content: 'Conhecimentos';
+  display: inline;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 0 0.3em;
+  color:#069;
+  background-color: #fff;
+  }
+
+  .hr_ferramentas{
+   margin-top: 45px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+  }
+.hr_ferramentas::after{
+  content: 'Ferramentas';
+  display: inline;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 0 0.3em;
+  color:#069;
+  background-color: #fff;
+  }
+
+  .hr_midias{
+   margin-top: 45px;
+	border-top: medium dashed #069;
+	border-bottom: medium dashed #069;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+  }
+.hr_midias::after{
+   content: 'Mídias Sociais';
+   display: inline;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   font-weight: bold;
+   padding: 0 0.3em;
+   color:#069;
+   background-color: #fff;
+   }
+.fab{
+   cursor: pointer;
+   margin: 5px;
+   max-height: 100%;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+   color: #4F4F4F;
+   }
+.fab:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #000;
+    }
+
+    .texto_curriculo{
+      font-size: 16px;
+      color: #4F4F4F;
+    }
